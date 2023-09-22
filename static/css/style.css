@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+    position: fixed;
+    left: 130px;
+    background-color: white;
+    height: 183px;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+
+/* aside part starts here  */
+
+
+.bars {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.home {
+    margin-top: 80px;
+}
+
+
+.shorts {
+    margin-top: 50px;
+}
+
+.sub {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.lib {
+    margin-top: 50px;
+}
+
+.bars1 {
+    font-size: 35px;
+}
+
+.home1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.shorts1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.sub1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.lib1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.homee {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.shortss {
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+
+.subb {
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.libb {
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+aside {
+    position: fixed;
+}
+
+
+/* header section starts here */
+
+header {
+    display: flex;
+}
+
+.youtube {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.smurfs {
+    margin-top: 13px;
+    margin-left: 7px;
+}
+
+.searchbox {
+    margin-top: 17px;
+    margin-left: 135px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: none;
+    height: 65px;
+    width: 723px;
+    position: relative;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.search {
+    margin-top: 17px;
+    margin-left: 10px;
+    height: 65px;
+    width: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    right: 27.8%;
+    font-size: 28px;
+}
+
+/* shorts page css starts here*/
+
+.search1 {
+    margin-top: 17px;
+    margin-left: 10px;
+    height: 65px;
+    width: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    right: 27.8%;
+    font-size: 28px;
+}
+
+.searchbox1 {
+    margin-top: 17px;
+    margin-left: 149px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: none;
+    height: 65px;
+    width: 723px;
+    position: relative;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+/* shorts page ends here  */
+
+
+
+
+.mic {
+    margin-left: 125px;
+    margin-top: 21px;
+    font-size: 30px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    width: 65px;
+    border-radius: 50%;
+    height: 65px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mic:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.rec {
+    margin-top: 35px;
+    margin-left: 90px;
+    font-size: 35px;
+}
+
+.bell {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+.profile {
+    margin-left: 35px;
+    margin-top: 24px;
+    font-size: 32px;
+    border: 1px solid lightgray;
+    background-color: purple;
+    padding: 10.5px 22px;
+    border-radius: 50%;
+    text-decoration-line: none;
+    color: white;
+    height: 65px;
+    width: 65px;
+}
+
+/* title section starts here */
+
+.titles {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.title {
+    text-decoration-line: none;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+    border: 2px solid #0000000D;
+    padding: 5px 17px;
+    margin-left: 15px;
+    background-color: #0000000D;
+    border-radius: 10px;
+    color: #0F0F0F;
+}
+
+
+/* video section starts here  */
+
+.main {
+    margin-top: 190px;
+    margin-left: 136px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.video1 {
+    margin-left: 57px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.videosection {
+    display: flex;
+}
+
+.vid1 {
+    display: flex;
+}
+
+.vid2 {
+    display: flex;
+}
+
+.vid2 a {
+    display: flex;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 63px;
+    border-radius: 50%;
+}
+
+.py {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.tension {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+
+.channel {
+    display: inline-block;
+    font-size: 21px;
+    color: #606060;
+}
+
+hr {
+    height: 10px;
+    width: 70%;
+    margin-left: 20%;
+}
+
+/*uploaded youtube page starts here  */
+
+.mainvideo {
+    margin-top: 200px;
+    margin-left: 185px;
+}
+
+.videosec {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.elements {
+    margin-left: 200px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.uploader {
+    border-radius: 50%;
+}
+
+.channelname {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.bellbottom {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.subscribebutton {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.like {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.likebutton {
+    margin-top: 7px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.dislike {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.share {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.sharebutton {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+/* .bellwithsubscribe{
+    display: flex;
+}
+
+.likeborder{
+    display: flex;
+}
+
+.dislikeborder{
+    display: flex;
+}
+
+.shareoption{
+    display: flex;
+} */
+
+.passage {
+    border: 1px solid lightgrey;
+    width: 32%;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.comment123 {
+    display: flex;
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.c2 {
+    margin-left: 60px;
+}
+
+.c3 {
+    margin-left: 10px;
+}

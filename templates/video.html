@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col_1">
+                <aside>
+                    <div class="bars">
+                        <a href="#" class="bars1"><i class="fa-solid fa-bars" style="color: #000000;"></i></a><br>
+                    </div>
+            
+                    <div class="home">
+                        <a href="#" class="home1"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
+                        <p class="homee">Home</p>
+                    </div>
+                    <div class="shorts">
+                        <a href="{{url_for('shorts')}}" class="shorts1"><i class="fa-brands fa-nfc-symbol" style="color: #000000;"></i></a>
+                        <p class="shortss">shorts</p>
+                    </div>
+                    <div class="sub">
+                        <a href="#" class="sub1"><i class="fa-brands fa-square-youtube" style="color: #000000;"></i></a>
+                        <p class="subb">Subscriptions</p>
+                       </div>
+                    <div class="lib">
+                        <a href="#" class="lib1"><i class="fa-regular fa-circle-play" style="color: #000000;"></i></a>
+                        <p class="libb">Library</p>
+                    </div>
+                </aside>
+            </div>
+            <!-- column three ends here -->
+            <div class="col_11">
+                <header>
+                    <a href="#" class="youtube"><i class="fa-brands fa-youtube" style="color: #ff0101;"></i></a>
+                    <a href="#"><img class="smurfs" src="../static/images/the-smurfs-characters-wallpaper-preview.jpg" alt="" height="50px" width="80px"></a>
+                    <form action="" method="post">
+                        <input type="search" class="searchbox" placeholder="Search">
+                        <button type="submit"  class="search"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+                    </form>
+                    <a href="#" class="mic"><i class="fa-solid fa-microphone" style="color: #000000;"></i></a>
+
+            <!-- upload section starts here -->
+
+                    <a href="{{url_for('upload')}}" class="rec"><i class="fa-solid fa-video" style="color: #000000;"></i></a>
+
+
+                    <a href="#" class="bell"><i class="fa-regular fa-bell" style="color: #000000;"></i></a>
+                    <a href="#" class="profile">e</a>
+                    
+
+
+                </header>
+                <div class="titles">
+                    <a href="#" class="title">All</a>
+                    <a href="#" class="title">Python</a>
+                    <a href="#" class="title">Mixes</a>
+                    <a href="#" class="title">Music</a>
+                    <a href="#" class="title">Gaming</a>
+                    <a href="#" class="title">Wickets</a>
+                    <a href="#" class="title">Live</a>
+                    <a href="#" class="title">Tamil Cinema</a>
+                    <a href="#" class="title">Comedy</a>
+                    <a href="#" class="title">Thriller</a>
+                </div>
+            </div>
+        </div>
+
+        
+            <iframe class="mainvideo" width="560" height="315" src="https://www.youtube.com/embed/{{VAR}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="videosec">        
+        <h2 class="in">Indoor Parithabangal - Parithabangal | Tamil Channel</h2>
+    </div>
+
+    <div class="elements">
+            <img src="../static/images/MG_logo.jpg" alt="" height="50px" width="50px" class="uploader">
+            <p class="channelname">Parithabangal</p>
+        <!-- <div class="bellwithsubscribe"> -->
+            <a href="#" class="bellbottom"><i class="fa-regular fa-bell" style="color: #000000;"></i></a>
+            <p class="subscribebutton">Subscribe</p>
+        <!-- </div> -->
+        <!-- <div class="likeborder"> -->
+            <a href="#" class="like"><i class="fa-regular fa-thumbs-up" style="color: black;"></i></a>
+            <p class="likebutton">5</p>
+        <!-- </div> -->
+        <!-- <div class="dislikeborder"> -->
+            <a href="#" class="dislike"><i class="fa-regular fa-thumbs-down" style="color: black;"></i></a>
+        <!-- </div> -->
+        <!-- <div class="shareoption"> -->
+            <a href="#" class="share"><i class="fa-solid fa-location-arrow" style="color: black;"></i></a>
+            <p class="sharebutton">Share</p>
+        <!-- </div> -->
+
+    </div>
+
+    <div class="passage">
+        <p class="passage1"><b>1.1M views 3 days ago Indoor Parithabangal</b></p>
+        <p class="passage2">India’s largest supermarket is a lot faster. Bbnow by bigbasket offers 5000+ essentials  from 500+ brands and delivers in 15-30 minutes.</p>
+    </div>
+
+    <div class="comment123">
+        <p class="c1">24.5k Comments</p>
+        <a href="#" class="c2"><i class="fa-solid fa-bars" style="color: #000000;"></i></a>
+        <p class="c3">Sort By</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/style1.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="col_1">
+        <aside>
+            <div class="bars">
+                <a href="#" class="bars1"><i class="fa-solid fa-bars" style="color: #000000;"></i></a><br>
+            </div>
+    
+            <div class="home">
+                <a href="#" class="home1"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
+                <p class="homee">Home</p>
+            </div>
+            <div class="shorts">
+                <a href="{{url_for('shorts')}}" class="shorts1"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                <p class="shortss">What's New</p>
+            </div>
+            <div class="sub">
+                <a href="#" class="sub1"><i class="fa-regular fa-folder-closed" style="color: #000000;"></i></a>
+                <p class="subb">Subscriptions</p>
+               </div>
+            <div class="lib">
+                <a href="#" class="lib1"><i class="fa-regular fa-address-card" style="color: #000000;"></i></a>
+                <p class="libb">About</p>
+            </div>
+        </aside>
+    </div>
+
+
+
+    <header>
+        <a href="#" class="youtube"><i class="fa-brands fa-youtube" style="color: #ff0101;"></i></a>
+        <a href="#"><img class="smurfs" src="../static/images/the-smurfs-characters-wallpaper-preview.jpg" alt="" height="50px" width="80px"></a>
+    </header>
+
+    <div class="heading">
+        <h1 class="youtube1">Youtube</h1>
+        <p class="video">Video Sharing Company</p>
+    </div>
+
+    <div class="login">
+        <form action="" method="post">
+            <input type="text" name="username" placeholder="User name" class="email">
+            <input type="text" name="dob" placeholder="Date of Birth" class="dob">
+            <input type="email" name="email" placeholder="Email" class="email"><br><br>
+            <input type="password" name="password" placeholder="Password" class="password">
+            <button type="submit" class="btn">Signup</button>
+        </form>
+    </div>

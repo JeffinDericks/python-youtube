@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col_1">
+                <aside>
+                    <div class="bars">
+                        <a href="#" class="bars1"><i class="fa-solid fa-bars" style="color: #000000;"></i></a><br>
+                    </div>
+
+                    <div class="home">
+                        <a href="#" class="home1"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
+                        <p class="homee">Home</p>
+                    </div>
+                    <div class="shorts">
+                        <a href="{{url_for('shorts')}}" class="shorts1"><i class="fa-brands fa-nfc-symbol"
+                                style="color: #000000;"></i></a>
+                        <p class="shortss">shorts</p>
+                    </div>
+                    <div class="sub">
+                        <a href="#" class="sub1"><i class="fa-brands fa-square-youtube" style="color: #000000;"></i></a>
+                        <p class="subb">Subscriptions</p>
+                    </div>
+                    <div class="lib">
+                        <a href="#" class="lib1"><i class="fa-regular fa-circle-play" style="color: #000000;"></i></a>
+                        <p class="libb">Library</p>
+                    </div>
+                    <div class="lib">
+                        <a href="{{url_for('logout')}}" class="lib1"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></a>
+                        <p class="libb">Logout</p>
+                    </div>
+                </aside>
+            </div>
+            <!-- column three ends here -->
+            <div class="col_11">
+                <header>
+                    <a href="#" class="youtube"><i class="fa-brands fa-youtube" style="color: #ff0101;"></i></a>
+                    <a href="#"><img class="smurfs" src="../static/images/the-smurfs-characters-wallpaper-preview.jpg"
+                            alt="" height="50px" width="80px"></a>
+                    <form action="" method="post">
+                        <input type="search" class="searchbox" placeholder="Search">
+                        <button type="submit" class="search"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #000000;"></i></button>
+                    </form>
+                    <a href="#" class="mic"><i class="fa-solid fa-microphone" style="color: #000000;"></i></a>
+
+                    <!-- upload section starts here -->
+
+                    <a href="{{url_for('upload')}}" class="rec"><i class="fa-solid fa-video"
+                            style="color: #000000;"></i></a>
+
+
+                    <a href="#" class="bell"><i class="fa-regular fa-bell" style="color: #000000;"></i></a>
+                    <a href="#" class="profile">e</a>
+
+
+
+                </header>
+                <div class="titles">
+                    <a href="#" class="title">All</a>
+                    <a href="#" class="title">Python</a>
+                    <a href="#" class="title">Mixes</a>
+                    <a href="#" class="title">Music</a>
+                    <a href="#" class="title">Gaming</a>
+                    <a href="#" class="title">Wickets</a>
+                    <a href="#" class="title">Live</a>
+                    <a href="#" class="title">Tamil Cinema</a>
+                    <a href="#" class="title">Comedy</a>
+                    <a href="#" class="title">Thriller</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- video section starts here  -->
+
+        <div class="main">
+            {%for i in box%}
+            <div class="sub">
+                <div class="videosection">
+                    <a href="{{url_for('video',var=i.videourl)}}"><img class="video1" src="{{i.thumburl}}" alt=""
+                            height="400px" width="700px"></a>
+                </div>
+
+
+                <div class="vid1">
+                    <a href="#"><img class="logo" src="../static/images/channel logo.jpg" alt="" height="60px"
+                            width="60px"></a>
+                    <h3 class="py">{{i.title}}</h3>
+                </div>
+                <div class="tension">
+                    <h6 class="channel">Code with Harry</h6>
+                    <h6 class="channel">272k views . 2 years ago</h6>
+                </div>
+            </div>
+            {%endfor%}
+            <div class="sub">
+                <div class="videosection">
+                    <a href="#"><img class="video1" src="../static/images/python.jpg" alt="" height="400px"
+                            width="700px"></a>
+                </div>
+
+
+                <div class="vid1">
+                    <a href="#"><img class="logo" src="../static/images/channel logo.jpg" alt="" height="60px"
+                            width="60px"></a>
+                    <h3 class="py">Python Basics for Beginners| Simple and Easy <br>Tutorial</h3>
+                </div>
+                <div class="tension">
+                    <h6 class="channel">Code with Harry</h6>
+                    <h6 class="channel">272k views . 2 years ago</h6>
+                </div>
+            </div>
+            <div class="sub">
+                <div class="videosection">
+                    <a href="#"><img class="video1" src="../static/images/MG_thumbnail.jpg" alt="" height="400px"
+                            width="700px"></a>
+                </div>
+                <div class="vid2">
+                    <a href="#"><img class="logo" src="../static/images/MG_logo.jpg" alt="" height="60px"
+                            width="60px"></a>
+                    <h3 class="py">Manipur shocking News|Tamil|MG Squad<br>MG Vlog-4</h3>
+                </div>
+                <div class="tension">
+                    <h6 class="channel">Madan Gowri</h6>
+                    <h6 class="channel">987k views . 5 months ago</h6>
+                </div>
+            </div>
+            <div class="sub">
+                <div class="videosection">
+                    <a href="{{url_for('windies')}}"><img class="video1" src="../static/images/vk_76.webp" alt=""
+                            height="400px" width="700px"></a>
+                </div>
+                <div class="vid2">
+                    <a href="#"><img class="logo" src="../static/images/windies.jpg" alt="" height="60px"
+                            width="60px"></a>
+                    <h3 class="py">Virat Kohli's 76th Ton| India vs Windies<br>1st Test</h3>
+                </div>
+                <div class="tension">
+                    <h6 class="channel">BCCI</h6>
+                    <h6 class="channel">10m views . 2 months ago</h6>
+                </div>
+            </div>
+            <div class="sub">
+                <div class="videosection">
+                    <a href="#"><img class="video1" src="../static/images/snap_thumbnail.jpg" alt="" height="400px"
+                            width="700px"></a>
+                </div>
+                <div class="vid2">
+                    <a href="#"><img class="logo" src="../static/images/music_logo.png" alt="" height="60px"
+                            width="60px"></a>
+                    <h3 class="py">8D Audio|Rosa Linn|Slowed <br>Lofi Mix</h3>
+                </div>
+                <div class="tension">
+                    <h6 class="channel">DJ Mixers</h6>
+                    <h6 class="channel">5.9m views . 2 years ago</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- shorts section starts here  -->
+
+
+</body>
+
+</html>
